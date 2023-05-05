@@ -22,9 +22,9 @@ const Register = () => {
           <p className="font-bold text-[15px]  ">Not yet a member? </p>
         </div>
         <form className="px-1 w-[350px] flex flex-col gap-5 items-center ">
-          <InputBox type="text" placeholder="Username " required />
-          <InputBox type="email" placeholder="Email" required />
-          <InputBox type="password" placeholder="Password " required />
+          <InputBox disabled={false} value={""} type="text" placeholder="Username " required />
+          <InputBox disabled={false} value={""} type="email" placeholder="Email" required />
+          <InputBox disabled={false} value={""} type="password" placeholder="Password " required />
           <button className="p-2 rounded w-full text-black bg-[yellow]">
             Register
           </button>
