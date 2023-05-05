@@ -13,7 +13,7 @@ const Register = () => {
     <main
       className="h-screen flex  place-content-center lg:my-[10vh] px-2 z-[0] lg:h-[100%]  items-center gap-5 lg:py-20 bg-no-repeat bg-cover bg-right-bottom bg-fixed mx-1   "
       style={{
-        backgroundImage: 'url("/wallpaperflare.com_wallpaper(107).jpg")',
+        backgroundImage: 'url("/loverBg.jpg")',
       }}
     >
       <div className="flex flex-col items-center justify-start backdrop-blur-sm border-2 border-[yellow] gap-1 p-2  rounded-md md:rounded-l-md h-[550px] w-[400px] md:w-[400px]  ">
