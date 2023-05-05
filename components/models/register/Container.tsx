@@ -1,4 +1,4 @@
-import RegIput from "./input";
+// import RegIput from "./input";
 
 interface RegContProps {
   disabled: boolean;
@@ -21,7 +21,7 @@ const RegCont: React.FC<RegContProps> = ({
           : "flex flex-col items-start gap-5 mx-[auto]   relative "
       }`}
     >
-      <RegIput type="text" placeHolder="Full Name" value="" disabled={false} />
+      {/* <RegIput type="text" placeHolder="Full Name" value="" disabled={false} /> */}
 
       <span className="font-bold text-[30px] text-[#dddd0f] ml-4 titleContent  ">
         {title}
